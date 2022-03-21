@@ -12,9 +12,11 @@ import Login from './components/Login';
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <Route path='/' element={ <App /> } />
+      <Routes>
+      <Route exact path='/' element={ <App /> } />
 
-      <Route path='/login' element= {<Login />}/>
+      <Route exact path='/login' element= {<Login />}/>
+      </Routes>
     </Router>
 
   </React.StrictMode>,
