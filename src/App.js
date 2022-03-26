@@ -4,6 +4,7 @@ function App() {
     <div className="App">
       <div>This is the introduction to our website</div>
       <a href="/login">Login</a>
+      <br />
       <a href="/budget">Budget</a>
     </div>
   );
