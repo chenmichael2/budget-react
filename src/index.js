@@ -8,6 +8,7 @@ import {
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Login from './components/Login';
+import Budget from './components/Budget-Page';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.render(
       <Routes>
         <Route exact path='/' element={<App />} />
         <Route exact path='/login' element={<Login />} />
+        <Route exact path='/budget' element={<Budget/>} />
       </Routes>
     </Router>
 
